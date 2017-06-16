@@ -197,7 +197,7 @@ La configuración de la directiva de grupo en el controlador de dominio para aud
 7. Cierre la ventana del Editor de administración de directivas de grupo y la de Administración de directivas de grupo. A continuación, para aplicar la configuración de auditoría, inicie una ventana de PowerShell y escriba:
 
     ```
-    gpupdate /force /target:computere
+    gpupdate /force /target:computer
     ```
 
 El mensaje “La actualización de la directiva de equipo se completó correctamente.” debe aparecer después de unos minutos.
